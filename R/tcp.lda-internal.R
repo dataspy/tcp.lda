@@ -303,8 +303,8 @@ function(s, testDir, testNamesMap=NULL, truthName=NULL, verbose=FALSE){
             }
         }
     }
-    s$names <- s$names[-removedIDs,]
-    s$files <- s$files[-removedIDs]
+  #  s$names <- s$names[-removedIDs,]
+   # s$files <- s$files[-removedIDs]
     s$removedIDs <- removedIDs
 
     if (doTruth==T){
